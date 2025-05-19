@@ -10,9 +10,10 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            //Class1 cla = new Class1(25, "Nerya");
-            //cla.Print();
-            Console.WriteLine(IntelTools.EncryptMessage("Hello"));
+            Agent agent1 = new Agent("asd", 2);
+            Report report1 = new Report("anything", 4, agent1);
+            MissionControl.AnalyzeReport(report1);
+            IntelTools.LogTransmission("shmuel", "something");
         }
     }
 }
