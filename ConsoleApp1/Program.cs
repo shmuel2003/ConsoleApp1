@@ -10,9 +10,6 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            //Class1 cla = new Class1(25, "Nerya");
-            //cla.Print();
-            Console.WriteLine(IntelTools.EncryptMessage("Hello"));
         }
     }
 }
